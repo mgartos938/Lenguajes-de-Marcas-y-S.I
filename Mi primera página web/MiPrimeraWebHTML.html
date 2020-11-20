@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera Web</title>
+    <meta name="description" content="Primera web con HTML">
+    <meta name="keywords" content="HTML dado en clase">
+    <meta name="author" content="Mario García Toscano">
+  </head>
+  <body bgcolor="black" text="white" link="red" alink="yellow" vlink="cyan">
+    <center>
+    <a name="comienzo"> </a>
+    <h1>Bienvenid@s a mi primera página web</h1>
+    <h2>Tutorial de HTML</h2>
+    <hr size="2" width="80%">
+    <h3>Mario García Toscano</h3>
+    <h4>IES Canovas del Castillo - 1º ASIR</h4>
+    <hr size="2" width="80%">
+    <h5>Encabezados:</h5>
+    <h1>Esto es texto con h1.</h1>
+    <h2>Esto es texto con h2.</h2>
+    <h3>Esto es texto con h3.</h3>
+    <h4>Esto es texto con h4.</h4>
+    <h5>Esto es texto con h5.</h5>
+    <h6>Esto es texto con h6.</h6>
+    Esto es el texto normal.<br>
+    <hr size="2" width="80%">
+    <!- - esto es un comentario  - ->
+    <h5>Atributos del texto:</h5>
+      <p> <b> Negrita </b>-
+          <i> Cursiva </i>-
+          <u> Subrayado </u>-
+          <s> Tachado </s>-
+          <sup> Superindice </sup>-
+          <sub> Subindice </sub>
+      </p>
+    <hr size="2" width="80%">
+    <h5>Atributos del texto 2:</h5>
+    <font size="4">Texto de ejemplo con grosor de 4 puntos</font><br>
+    <font face="courier">Texto de ejemplo con fuente courier</font><br>
+    <font color="yellow">Texto de ejemplo de color amarillo</font><br>
+    <hr size="2" width="80%">
+    <h5>Alinear texto:</h5>
+    </center>
+    Este texto aparece a la izquierda
+    <center>Este texto aparece centrado</center>
+    <div align=right>Este texto aparece a la derecha</div>
+    <hr size="2" width="80%">
+    <center>
+    <h5>Formateado del texto:</h5>
+    <pre>Esto es una línea de texto          con varios espacios en blanco.
+     Esto es otra línea con			tabulaciones.
+
+
+
+    Esto está tres líneas mas abajo.</pre>
+    <hr size="2" width="80%">
+    <h5>Sangrado del texto:</h5>
+    Texto normal. No aparece sangrado.
+    <blockquote>Texto sangrado</blockquote>
+    Este texto es normal.
+    <hr size="2" width="80%">
+    <h5>Tildes y secuencias en el texto:</h5>
+    C&aacute;novas del castillo
+    <br>
+    &lt;hr&gt;
+    <hr size="2" width="80%">
+    <h5>Listas:</h5>
+    </center>
+    <ol>
+      <li>Esto es una lista ordenada</li>
+      <li>Esto es una lista ordenada</li>
+      <ul>
+        <li>Esto es una lista desordenada dentro de una ordenada</li>
+        <li>Esto es una lista desordenada dentro de una ordenada</li>
+        <li type="square">Esto es una lista desordenada dentro de una ordenada con un cuadrado de viñeta</li>
+        <ol  start="4">
+          <li>Esto es una lista ordenada dentro de una lista desordenada dentro de una lista ordenada que empieza por 4</li>
+          <li>Esto es una lista ordenada dentro de una lista desordenada dentro de una lista ordenada que empieza por 4</li>
+          <li>Esto es una lista ordenada dentro de una lista desordenada dentro de una lista ordenada que empieza por 4</li>
+          <ol type="I">
+            <li>Esto es una lista ordenada dentro de una lista ordenada dentro
+              de una lista desordenada dentro de una lista ordenada con diferente numeración
+            </li>
+            <li>Esto es una lista ordenada dentro de una lista ordenada dentro
+              de una lista desordenada dentro de una lista ordenada con diferente numeración
+            </li>
+          </ol>
+        </ol>
+      </ul>
+      <li>Esto es una lista ordenada</li>
+    </ol>
+    <br>
+    <dl>Lista de definiciones<br><br>
+      <dt>Término 1</dt><br>
+        <dd>Primera definici&oacute;n del T&eacute;rmino 1</dd>
+        <dd>Segunda definici&oacute;n del T&eacute;rmino 1</dd>
+        <dd>Tercera definici&oacute;n del T&eacute;rmino 1</dd>
+      <br><dt>Término 2</dt><br>
+        <dd>Primera definici&oacute;n del T&eacute;rmino 2</dd>
+        <dd>Segunda definici&oacute;n del T&eacute;rmino 2</dd>
+    </dl>
+    <hr size="2" width="80%">
+    <style type="text/css">
+    .bg {
+      background-image: url('fondo.jpg');
+      width: 800px;
+      height: 300px;
+      color: black;
+      margin:0 auto;
+      }
+    </style>
+    <center>
+    <h5>Imagen de fondo:</h5><br>
+    <div class="bg">
+      <center>
+      <br><h1>Fondo de web con imagen</h1>
+      <p>He usado un DIV con propiedades CSS de anchura y altura, de margen y de
+         color de las letras negros, <br>pero la función es igual que si creo otro
+         archivo html.</p> He usado background-image, pero se podría usar &lt;body background="fondo.jpg".&gt;<br>
+         en otro archivo .html, ya que solo se puede poner un fondo por página.
+      </center>
+    </div>
+    <hr size="2" width="80%">
+    <h5>Insertar Imagen:</h5>
+    </center>
+    <img src="coche.jpg" alt="bmw e30" border="2px" align="left" hspace="10" vspace="20" width="600" height="250"><br>
+    <center>
+      Esta imagen está con borde de 2px y alineada a la izquierda.<br>
+      Su tamaño esta editado para que se vea más achatada, como forma de ejemplo.<br>
+      Tiene separación entre ella y los demas elementos con vspace.
+    <br><hr size="2" width="80%">
+    <h5>Insertar links:</h5>
+    <a href="https://google.es" target="_blank">Google</a> -
+    <a href="canovas.html" target="_blank">Canovas del Castillo</a> (Enlace relativo) -
+    <a href="https://www.iescanovas.es/" target="_blank"><img src="sonrisa.png"
+    alt="Canovas del castillo" style="width:42px;height:42px;"></a> (Enlace en imagen) -
+    <a href="mailto:mariogarciatos@gmail.com" subject="asunto del correo">Enviar email con asunto</a> (Enlace a correo electrónico) -
+    <button onclick="document.location='canovas.html'" >Canovas</button> (Enlace de botón)<br>
+    <br><a href="#comienzo"> Ir al principio de la página </a> -
+    <a href=canovas.html#comienzo> Ir al principio de canovas.html </a><br>
+    <br><a href="https://d.winrar.es/d/103z1601341762/iraVmU2b5PSAOJRyiSzPcQ/winrar-x64-591es.exe" target="_blank"> Descargar Winrar</a>
+    <br>
+    <br>
+    <img src="bmw.jpg" width="700" height="467" border="0" usemap="#map" />
+    <map name="map">
+      <area shape="circle" coords="327,383,50" alt="LLantas" href="http://llantasyruedas.es/performance-bmw/1829-175947-pack--bmw-e30.html" />
+      <area shape="rect" coords="385,306,621,413" alt="Parachoques" href="http://www.autodoc.es/repuestos/parachoques-piezas-10287/bmw/3er-reihe/3-e30" />
+      <area shape="poly" coords="135,278,182,278,205,211,160,222,138,258" alt="Ventana trasera" href="http://www.ebay.es/itm/254195009111" /></map>
+    <p>Haz click en las diferentes partes del coche para comprar la pieza.</p>
+  </body>
+</html>
