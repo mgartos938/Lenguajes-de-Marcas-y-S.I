@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toma de datos</title>
+  </head>
+  <body>
+    <form>
+    <h1>Formulario de Toma de Datos</h1>
+    Nombre <font color="red">(*)</font>:   </b><input type="text" name="nombre" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;
+    Apellido 1 <font color="red">(*)</font>:   </b><input type="text" name="apellido1" value="" size="25" maxlength="15">&ensp;&ensp;&ensp;&ensp;
+    Apellido 2 <font color="red">(*)</font>:   </b><input type="text" name="apellido2" value="" size="25" maxlength="15"><br><br>
+    &ensp;&ensp;&ensp;&ensp;Año nacimiento:   <input type="text" name="añonaci" value="" size="3" maxlength="5">&ensp;&ensp;&ensp;&ensp;
+    Mayor de edad:    <input type="checkbox" name="mayor" value="">
+    <hr><br>
+    Dirección:   </b><input type="text" name="direccion" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;
+    Población:   </b><input type="text" name="poblacion" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;
+    Provincia:   </b><input type="text" name="provincia" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;<br><br>
+    Teléfono:   </b><input type="text" name="telefono" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;
+    Móvil <font color="red">(*)</font>:   </b><input type="text" name="movil" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;
+    e-mail:   </b><input type="text" name="email" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;<br><br><hr>
+    Tienes ordenador en casa:
+    <input type="radio" name="si1" value="si">Si
+    <input type="radio" name="no1" value="no">No&ensp;&ensp;&ensp;&ensp;
+    Tienes internet en casa:
+    <input type="radio" name="si2" value="si">Si
+    <input type="radio" name="no2" value="no">No&ensp;&ensp;&ensp;&ensp;
+    Trabajas:
+    <input type="radio" name="si3" value="si">Si
+    <input type="radio" name="no3" value="no">No&ensp;&ensp;&ensp;&ensp;
+    Relacionado con la informática?:
+    <input type="radio" name="si4" value="si">Si
+    <input type="radio" name="no4" value="no">No&ensp;&ensp;&ensp;&ensp;<br><br><br><br>
+    <table width="65%">
+      <tr>
+        <td>Estudios superiores alcanzados:
+          <br><textarea name="estudios" rows="8" cols="50"></textarea>
+        </td>
+        <td>Que aspectos de la informática te interesan más
+          <br><textarea name="intereses" rows="8" cols="50"></textarea>
+        </td>
+      </tr>
+    </table><br>
+    Conocimientos de Hardware:&ensp;&ensp;
+    <select name="nivel1">
+      <option value="" selected="selected"> </option>
+      <option value="na">Ninguno</option>
+      <option value="basico">Básico</option>
+      <option value="avanzado">Avanzado</option>
+    </select>
+    &ensp;&ensp;&ensp;&ensp;Conocimientos de Hardware:&ensp;&ensp;
+    <select name="nivel2">
+      <option value="" selected="selected"> </option>
+      <option value="na1">Ninguno</option>
+      <option value="basico1">Básico</option>
+      <option value="avanzado1">Avanzado</option>
+    </select><br><br>
+    Conocimientos de Linux a nivel de:
+    Usuario:<input type="radio" name="userlevel" value="usuario">
+    Administrador:<input type="radio" name="admin" value="administrador">
+    <br><br><center>Subir Curriculum&ensp;&ensp;
+    <input type="text" name="nombresubido" value="" size="15" maxlength="15">
+    <input type="file" name="archivossubidos">
+    <input type="submit" value="Enviar Datos">&ensp;&ensp;
+    <input type="reset" value="Borrar Datos">
+  </form>
+  </body>
+</html>

@@ -5,10 +5,38 @@
     <title>Formulario</title>
   </head>
   <body>
+    <form>
     <center>
       <h3>FORMULARIO</h3>
     </center>
-    <br>
-    <input type="text" name="nombre" value="Escribe tu Nombre" size="15" maxlength="15">
+    <center>
+      <br>
+      <b>NOMBRE:   </b><input type="text" name="nombre" value="" size="15" maxlength="15">&ensp;&ensp;&ensp;&ensp;
+      <b>APELLIDOS:   </b><input type="text" name="apellidos" value="" size="25" maxlength="15">
+      <br><br>
+      <b>DIRECCION:   </b><input type="text" name="direccion" value="" size="32" maxlength="40">&ensp;&ensp;&ensp;&ensp;&ensp;
+      <b>SEXO:   </b>
+      <select name="sexo">
+        <option value="" selected="selected"> </option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+      </select>
+      <br><br>
+      <b>CODIGO POSTAL:   </b><input type="text" name="codpos" value="" size="3" maxlength="5">&ensp;&ensp;&ensp;&ensp;
+      <b>PROVINCIA:   </b><input type="text" name="provincia" value="" size="15" maxlength="20">
+      <br><br>
+      <textarea name="opinion" rows="8" cols="50">Dame tu opinion acerca el diseño de la web.</textarea>
+      <br><br>
+      <input type="checkbox" name="publicidad" value=""><b>  DESEO RECIBIR PUBLICIDAD</b>
+      <br><br>
+      <b>¿Cuál es su sistema operativo?
+      <br>
+      <input type="radio" name="Windows XP" value="Windows XP">WINDOWS XP
+      <input type="radio" name="Windows Vista" value="Windows Vista">WINDOWS Vista
+      <input type="radio" name="Linux" value="Linux">Linux<br></b>
+      <br>
+      <input type="submit" value="ENVIAR DATOS">
+      <input type="reset" value="BORRAR DATOS">
+    </form>
   </body>
 </html>
