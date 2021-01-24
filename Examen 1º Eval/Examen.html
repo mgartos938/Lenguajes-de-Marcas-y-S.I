@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Examen HTML</title>
+  </head>
+  <body background="fondo.jpg">
+    <h1><i>Lista de la compra de Mario García Toscano</i></h1>
+    <ol type="a">
+      <li>Mercado</li>
+        <ul type="square">
+          <li><a href="https://google.es"><font color="red">Pez espada</font></a></li>
+          <li>pollo</li>
+          <li>Atún</li>
+        </ul>
+      <li>Panadería</li>
+        <ol type="A" start="7">
+          <li>Molletes</li>
+          <li>Pitufos</li>
+        </ol>
+    </ol>
+    <h2>Notas sobre las compras</h2>
+    <dl>
+      <dt>Pitufos</dt>
+        <dd>De los pequeños</dd>
+      <dt>Pollo</dt>
+        <dd>Pechuga en filetes</dd>
+    </dl>
+    <center>
+      <h2>Horario</h2>
+      <table border="1">
+        <tr bgcolor="green">
+          <td colspan="4"><font color="white">Debe de cumplirse</font></td>
+        </tr>
+        <tr bgcolor="yellow">
+          <td></td>
+          <td>Primero</td>
+          <td>Segundo</td>
+          <td>Tercero</td>
+        </tr>
+        <tr>
+          <td bgcolor="yellow">9:30</td>
+          <td><a href="http://iescanovas.es" target="iframe1"><img src="canovas.gif" alt="Logo del instituto" width="40px" height="40px"></img></a></td>
+          <td></td>
+          <td><img src="erasmus.jpg" alt="Erasmus logo" width="40px" height="40px"></img></td>
+        </tr>
+        <tr>
+          <td bgcolor="yellow">10:30</td>
+          <td></td>
+          <td><img src="erasmus.jpg" alt="Erasmus logo" width="40px" height="40px"></img></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td bgcolor="yellow">12:00</td>
+          <td><img src="sepie.jpg" alt="Erasmus logo" width="40px" height="40px"></img></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <br>
+      <iframe name="iframe1" width="300" height="100"></iframe>
+    </center>
+    <fieldset>
+      <legend>datos importantes</legend>
+      <form>
+        <table width="100%">
+          <tr>
+            <td>
+              Contraseña: <input type="password" name="password" size="50" maxlength="100">
+            <td>foto: <input type="file" name="fichero" value=""></td>
+          </tr>
+          <tr>
+            <td>resultado: Ha cumplido horario <input type="radio" name="si" value="si">
+            No ha cumplido horario <input type="radio" name="no" value="no"></td>
+            <td>Número de faltas:<br>
+              <input type="checkbox" name=">5">>5<br>
+              <input type="checkbox" name="<5"><5</td>
+          </tr>
+        </table>
+        <center>
+          <a href="mailto:examen html@hotmail.com"><img src="enviar.png" alt="enviar correo"></img></a>
+          <input type="reset" value="Borar Formulario">
+        </center>
+      </form>
+    </fieldset>
+  </body>
+</html>

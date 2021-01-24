@@ -1,0 +1,21 @@
+body {
+  background-color:#0FF;
+}
+h1 {
+color:blue;
+font-weight:bold;
+font-Family: arial;
+font-size:18>
+text-decoration: underline;
+}
+p {
+text-decoration: overline;
+color:red;
+}
+#personalizado {
+font-Family:courier;
+background-color:black;
+color:lightgreen;
+border-color:yellow;
+border-style: double;
+}
