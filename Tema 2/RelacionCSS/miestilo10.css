@@ -1,0 +1,17 @@
+a.color {
+  text-decoration: underline red 3px;
+}
+a.ancho {
+  text-decoration: underline blue 5px;
+}
+a.separado {
+  text-decoration: none;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+a.discontinuo {
+  text-decoration: none;
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+}

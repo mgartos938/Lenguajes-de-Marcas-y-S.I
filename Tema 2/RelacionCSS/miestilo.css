@@ -5,8 +5,10 @@ h1 {
 color:blue;
 font-weight:bold;
 font-Family: arial;
-font-size:18>
+font-size:18;
 text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: normal;
 }
 p {
 text-decoration: overline;

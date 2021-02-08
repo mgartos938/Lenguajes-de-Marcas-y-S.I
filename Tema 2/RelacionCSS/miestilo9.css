@@ -1,0 +1,13 @@
+a.rojo {
+  color: red;
+}
+a.subrayado {
+  text-decoration: none;
+}
+a.importante {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+a.raro {
+ text-decoration: overline;
+}
