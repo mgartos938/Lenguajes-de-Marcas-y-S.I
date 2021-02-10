@@ -1,0 +1,6 @@
+ul.uno {
+  list-style-image: url(bullet1.gif);
+}
+ul.dos {
+  list-style-image: url(bullet2.gif);
+}

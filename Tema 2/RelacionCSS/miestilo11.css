@@ -1,0 +1,25 @@
+body {
+  font-size: xx-large;
+}
+p.crosshair {
+  cursor: crosshair;
+  word-spacing: 15px;
+}
+a {
+  text-decoration: overline;
+  color: #c9c;
+}
+a:visited {
+  color: #C03;
+}
+a:hover {
+  color: #6FF;
+  text-decoration: underline;
+}
+p.L::first-letter {
+  font-size: larger;
+  color: #039;
+}
+p.uno::first-line {
+  color: #063;
+}

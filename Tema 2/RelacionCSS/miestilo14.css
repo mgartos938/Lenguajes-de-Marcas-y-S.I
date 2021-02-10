@@ -1,0 +1,13 @@
+html {
+  scrollbar-face-color: red;
+  scrollbar-arrow-color: red;
+  scrollbar-shadow-color: black;
+  scrollbar-3dlight-color: black;
+}
+body {
+  background-image: url("mosaico.png");
+  background-attachment: fixed;
+}
+h1.rojo {
+  color: red;
+}

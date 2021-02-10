@@ -1,0 +1,33 @@
+table {
+  width: 60%;
+}
+td.uno {
+  border-left: 4px solid green;
+  border-right: 4px solid green;
+  border-top: 4px outset red;
+  border-bottom: 4px outset red;
+}
+td.dos {
+  border-left: 4px dashed yellow ;
+  border-top: 4px dotted lightgreen;
+  border-right: 4px dashed yellow ;
+  border-bottom: 4px dotted lightgreen;
+}
+td.tres {
+  border-left: 4px dashed grey ;
+  border-top: 4px dotted yellow;
+  border-right: 4px dashed grey ;
+  border-bottom: 4px dotted yellow;
+}
+td.cuatro {
+  border-left: 4px dashed darkred ;
+  border-top: 4px dotted grey;
+  border-right: 4px dashed darkred ;
+  border-bottom: 4px dotted grey;
+}
+td.cinco {
+  border-left: 4px solid #7FFE59;
+  border-right: 4px solid #7FFE59;
+  border-top: 4px outset red;
+  border-bottom: 4px outset red;
+}

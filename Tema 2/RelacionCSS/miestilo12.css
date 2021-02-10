@@ -1,0 +1,12 @@
+a {
+  font-size: large;
+  color: black;
+  text-decoration-line: none;
+  border: 1px solid #454545;
+  padding: 7px;
+  background-color: #D1D1D1;
+  box-shadow: 2px 2px 5px #666
+}
+a:hover {
+background-color: #B0B0B0;
+}

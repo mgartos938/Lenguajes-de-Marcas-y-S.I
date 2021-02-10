@@ -1,0 +1,45 @@
+p.mano {
+  cursor: pointer;
+}
+p.cruz {
+  cursor: cell;
+}
+p.texto {
+  cursor: text;
+}
+p.esperar {
+  cursor: wait;
+}
+p.ayuda {
+  cursor: help;
+}
+p.derecha {
+  cursor: w-resize;
+}
+p.aderecha {
+  cursor: sw-resize;
+}
+p.arriba {
+  cursor: s-resize;
+}
+p.aizquierda {
+  cursor: se-resize;;
+}
+p.izquierda {
+  cursor: w-resize;
+}
+p.abizquierda {
+  cursor: sw-resize;
+}
+p.abajo {
+  cursor: s-resize;
+}
+p.aderecha {
+  cursor: se-resize;
+}
+p.defectivo {
+  cursor: none;
+}
+p.auto {
+  cursor: auto;
+}

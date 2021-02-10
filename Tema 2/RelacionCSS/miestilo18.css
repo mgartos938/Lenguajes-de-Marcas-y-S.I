@@ -1,0 +1,19 @@
+a.verde {
+  color: lightgreen;
+  text-decoration: underline;
+}
+a.naranja {
+  color: orange;
+  text-decoration: underline;
+}
+a.amarillo {
+  color: yellow;
+  text-decoration: underline;
+}
+a.azul {
+  color: blue;
+  text-decoration: underline;
+}
+a:hover {
+  text-transform: uppercase;
+}
