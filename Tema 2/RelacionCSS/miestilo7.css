@@ -1,16 +1,19 @@
 h1 {
 font-family: sans-serif;
-font-size: 3em;
+font-size: 2em;
 }
 h2 {
 font-family: sans-serif;
-font-variant: small-caps;
+font-variant: small-caps ;
 font-size: 150%;
 }
 h3 {
-  font-family: "Comic sans";
-  font-variant x-large;
-  font-size: 110%;
+  font-family: comic sans-serif;
+  font-variant: x-large;
+  font-size: 200%;
+  /* EL TIPO DE LETRA PROPUESTO NO ESTA BIEN INDICADA EN EL ENUNCIADO.
+   LA FUENTE FANTASY SE HA CAMBIADO DE UNA VERSION A OTRA, LOS TAMAÑOS DEL
+   ENUNCIADO NO SON CORRECTOS? */
 }
 h4 {
   font-weight: bold;
@@ -22,3 +25,5 @@ h5 {
   font-variant: small-caps;
   font-size: 120%;
 }
+
+/* EL ENUNCIADO NO SE ACABA DE ENTENDER O ESTA MAL INDICADO U OBSOLETO */
