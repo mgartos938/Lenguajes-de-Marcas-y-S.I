@@ -1,0 +1,69 @@
+h1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #999999;
+  letter-spacing: 10px;
+}
+h3 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #666666;
+  color: #FF6600;
+
+
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 4px double #FF6600;
+}
+
+ul.uno {
+  background-color: #BFFCAD;
+  border: 4px dotted black;
+  padding: 4px;
+  color: grey;
+  list-style-type: square;
+}
+
+ul.dos {
+  background-color: #BFFCAD;
+  border: 4px dotted grey;
+  color: grey;
+  list-style-type: square;
+}
+td.ej2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #BFFCAD;
+  color: grey;
+  list-style-type: square;
+}
+#grey {
+  color: grey;
+}
+a.noenlace {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #666666;
+  color: #FF6600;
+
+
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 4px double #FF6600;
+}
+a.enlace {
+  text-decoration: none;
+  color: grey;
+  margin-top: 20px;
+}
