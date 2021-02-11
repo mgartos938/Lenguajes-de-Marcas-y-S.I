@@ -1,0 +1,21 @@
+caption {
+  color: grey;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+table {
+  border: 4px solid grey;
+  color: blue;
+  text-align: center;
+}
+th {
+  color: white;
+  background-color: grey;
+}
+td.fila11 {
+  font-style: italic;
+}
+td.fila15 {
+  background-color: #fc9;
+  color: brown;
+}
