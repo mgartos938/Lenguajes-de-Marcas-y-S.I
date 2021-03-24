@@ -1,0 +1,83 @@
+html {
+  width: 100%;
+  min-width: 650px;
+}
+
+body {
+  font-family: arial;
+  color: #333;
+}
+ul.cabecera {
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+li.cabecera {
+  display:inline;
+}
+a.cabecera {
+  text-decoration: none;
+  background: #EEEEEE;
+  color: #069;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:hover.cabecera {
+  color: white;
+  background: #069;
+  text-decoration: underline;
+}
+h1.cabecera {
+  padding-left: 1px;
+}
+
+div.nav {
+  width: 18%;
+  background: #ccc;
+  float: left;
+  margin-bottom: 10px;
+}
+
+ul.nav {
+  list-style: none;
+  padding: 0;
+}
+
+h3.nav {
+
+  padding-left: 10px;
+}
+
+a.nav {
+  color: #069;
+  text-decoration: none;
+}
+
+div.area {
+  float: right;
+  width: 78%
+}
+
+h1.area {
+padding-left: 15px;
+}
+
+h2.area {
+padding-left: 15px;
+}
+
+h3.area {
+padding-left: 15px;
+}
+
+div.pie {
+  height: 100px;
+  background: #eee;
+  color: #aaa;
+  border-top: 1px solid #000;
+  font-size: 70%;
+  clear: both;
+
+}
