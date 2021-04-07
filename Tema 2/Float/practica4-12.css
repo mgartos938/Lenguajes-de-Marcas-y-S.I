@@ -1,0 +1,32 @@
+body{
+	background-color: #25F5BC;
+}
+
+div{
+	position: absolute;
+	font-family: Verdana;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.dos {
+	top: 40px;
+}
+.tres {
+	top: 80px;
+}
+.cuatro {
+	top: 120px;
+}
+.rojo{
+	color: red;
+}
+.verde{
+	color: #66CC33;
+}
+.azul{
+	color: #0099FF;
+}
+.amarillo{
+	color: #FFCC00;
+}

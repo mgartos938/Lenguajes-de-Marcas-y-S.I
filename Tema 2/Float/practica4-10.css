@@ -1,0 +1,71 @@
+
+body {
+  background-color: #DDD111;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+div.master {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+div.estatica {
+  background-color: #41B8E5;
+  border: 1px solid darkblue;
+  display: block;
+  position: static;
+  width: 800px;
+  height: 100px;
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  vertical-align: middle;
+}
+
+div.estaticados {
+  background-color: red;
+  border: 1px solid green;
+  display: block;
+  position: static;
+  width: 800px;
+  height: 100px;
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  float: right;
+  margin-top: 30px;
+  padding-top: 20px;
+  vertical-align: middle;
+}
+
+div.absoluta {
+  background-color: black;
+  border: 1px solid green;
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  color: green;
+  top: 370px;
+  left: 1000px;
+  font-size: 30px;
+  float: right;
+  margin-top: 30px;
+  padding-top: 20px;
+  vertical-align: middle;
+}

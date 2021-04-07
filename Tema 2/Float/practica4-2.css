@@ -1,0 +1,11 @@
+body {
+  background-color: #808080;
+}
+span.capa {
+  display:inline-block;
+  background: white;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin-left: 10px;
+}

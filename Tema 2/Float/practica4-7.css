@@ -1,0 +1,21 @@
+div.titulo {
+  display: block;
+  background-color: red;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+div.menu {
+  display: block;
+  background-color: #008080;
+  float: right;
+  width: 200px;
+}
+
+div.texto {
+  display: block;
+  background-color: grey;
+  position: absolute;
+  top: 100px;
+}

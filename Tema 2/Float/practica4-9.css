@@ -1,0 +1,24 @@
+body {
+  background-color: #FFFF99;
+}
+
+div.uno {
+  display: block;
+  width: 300px;
+  color: blue;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+div.dos {
+  background-color: #669966;
+  display: block;
+  width: 300px;
+  color: yellow;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

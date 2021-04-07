@@ -1,0 +1,20 @@
+div.titulo {
+  display: block;
+  background-color: red;
+  position: relative;
+
+}
+
+div.menu {
+  display: block;
+  position: relative;
+  background-color: grey;
+  float: right;
+  width: 200px;
+}
+
+div.texto {
+  display: block;
+  background-color: green;
+
+}

@@ -1,0 +1,32 @@
+div.uno {
+  display: block;
+  background-color: #FF00FF;
+  width: 390px;
+  border: 5px solid black;
+  margin-bottom: 30px;
+  height: 30px;
+}
+div.dos {
+  display: block;
+  background-color: #00FFFF;
+  width: 380px;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+div.tres {
+  display: block;
+  background-color: yellow;
+  border: 5px solid black;
+  width: 380px;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+div.cuatro {
+  display: block;
+  background-color: #00FF00;
+  width: 400px;
+  height: 50px;
+}

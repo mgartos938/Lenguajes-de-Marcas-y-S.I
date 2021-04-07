@@ -1,0 +1,90 @@
+body {
+    background-image: url(ladrillo.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+.cabecera {
+    overflow: visible;
+    position: fixed;
+    height: 100px;
+    border-bottom: solid 2.5px;
+    border-color: white;
+    background-image: url(negro.jpg);
+    width: 100%;
+    top: 0%;
+    white-space: nowrap;
+}
+
+.enlace {
+    text-align: center;
+    vertical-align: center;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 100px;
+}
+a:hover.enlace {
+    font-size: 40px;
+}
+.manzana {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 130px;
+    left: 45px;
+}
+.android {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 455px;
+    left: 45px;
+}
+.centro {
+    background-color: white;
+    opacity: 0.75;
+    height: 900px;
+    width: 450px;
+    overflow: scroll;
+    position: relative;
+    top: 122px;
+}
+body p {
+    text-align: justify;
+}
+body p::first-letter {
+    font-size: large;
+    color: red;
+}
+.max {
+    text-transform: uppercase;
+    font-size: small;
+}
+.taza {
+    height: 140px;
+    width: 140px;
+    float: right;
+}
+.clear {
+    clear: right;
+}
+.logo {
+    height: 300px;
+    width: 280px;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+.principio{
+
+}

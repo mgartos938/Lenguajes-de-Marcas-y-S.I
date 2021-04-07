@@ -1,0 +1,71 @@
+p {
+	text-align: center;
+}
+
+.subcapados{
+	background-color: grey;
+	border: solid 2px red;
+	color: white;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 50px;
+}
+
+.submarco{
+	border: solid 3px red;
+	position: absolute;
+	margin-top: 105px;
+	margin-left: 30px;
+	width: 194px;
+	height: 150px;
+}
+
+.marco{
+	border: solid 3px lightblue;
+	position: absolute;
+	width: 280px;
+	height: 120px;
+	top: 420px;
+	left: 300px;
+}
+
+.marco p{
+	margin-top: 99px;
+}
+
+.uno {
+	border: solid 3px blue;
+	background-color: #ccccff;
+	height: 550px;
+	width: 700px;
+	color: blue;
+	font-family: Calibri;
+}
+
+.tit{
+	font-weight: bold;
+}
+
+.caja {
+	border: solid 2px blue;
+	background-color: #66c2ff;
+	margin-top: 50px;
+	margin-left: 30px;
+	width: 600px;
+	height: 440px;
+}
+
+.subcapauno{
+	background-color: #ffe6e6;
+	border: solid 2px violet;
+	width: 280px;
+	height: 300px;
+	float: left;
+	margin-left: 25px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}

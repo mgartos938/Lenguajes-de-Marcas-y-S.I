@@ -1,0 +1,13 @@
+div {
+  background-color: red;
+  width: 200px;
+  height: 150px;
+}
+
+
+span.span {
+  display: inline-block;
+  background-color: yellow;
+  width: 200px;
+  height: 150px;
+}

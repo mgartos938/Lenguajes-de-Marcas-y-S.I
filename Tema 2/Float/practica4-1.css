@@ -1,0 +1,10 @@
+body {
+  background-color: #808080;
+}
+div {
+  background: white;
+  border: 1px solid black;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  width: 7%;
+}
